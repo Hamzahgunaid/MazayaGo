@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 // ============================================
 // MAZAYAGO RAMADAN 2026 - UNIFIED HOMEPAGE
@@ -779,7 +779,7 @@ const OrganizerHeroGraphic = () => (
 // ============================================
 // MAIN COMPONENT
 // ============================================
-const MazayaGoUnifiedHomepage = () => {
+const Homepage = () => {
   const [isOrganizer, setIsOrganizer] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -1756,4 +1756,4 @@ const MazayaGoUnifiedHomepage = () => {
   );
 };
 
-export default MazayaGoUnifiedHomepage;
+export default Homepage;
